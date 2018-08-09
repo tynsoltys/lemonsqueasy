@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: $spacingUnit * 2;
+}
+
+.app-container {
+ background-color: #fff;
+ width: 100%;
+ margin: auto;
+ padding: ($spacingUnit) ($spacingUnit * 2);
+ border: 3px solid black;
+ border-radius: 15px;
+}
